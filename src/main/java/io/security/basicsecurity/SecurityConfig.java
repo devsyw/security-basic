@@ -29,7 +29,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .defaultSuccessUrl("/")
                 .failureUrl("/login")
                 .usernameParameter("syw")
-                .passwordParameter("345100")
+                .passwordParameter("testpw")
                 .loginProcessingUrl("/login_proc")
                 .successHandler(new AuthenticationSuccessHandler() {
                     @Override
